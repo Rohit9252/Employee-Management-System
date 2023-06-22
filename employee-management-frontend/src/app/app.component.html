@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <ul class="navbar-nav mx-4">
+    <h4 class="text-light">Employee Management System </h4>
+  </ul>
+</nav>
+
+
+
+<h1 class="text-center"> Employee List </h1>
+<div class="container flex ">
+
+  <a routerLink="employees" routerLinkActive="active" class="btn btn-primary mx-3">Employee List</a>
+  <a routerLink="create-employee" routerLinkActive="active" class=" btn btn-success">Add Employee</a>
+</div>
+<div class="container my-3">
+  <router-outlet></router-outlet>
+</div>
+<footer class="footer m">
+  <div class="container ">
+    <!-- <span>Made by Rohit Kumar </span> -->
+  </div>
+</footer>
