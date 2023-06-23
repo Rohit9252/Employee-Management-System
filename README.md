@@ -71,6 +71,11 @@ git clone https://github.com/Rohit9252/Employee-Management-System.git
 5. Access the application:
 - Open a web browser and go to `http://localhost:4200` to access the Employee Management System.
 
+ # Demo Video
+  ```
+https://drive.google.com/file/d/1GFf6L_f9yslPDNPuaG1kDK28WLkDA0cm/view?usp=sharing
+```
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvement, please create a GitHub issue or submit a pull request.
