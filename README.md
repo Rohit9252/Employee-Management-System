@@ -53,6 +53,10 @@ git clone https://github.com/Rohit9252/Employee-Management-System.git
   ```
   ./mvnw spring-boot:run
   ```
+  # Swagger Link
+  ```
+  http://localhost:8080/swagger-ui/index.html#/employee-controller
+  ```
 
 4. Set up the frontend (Angular):
 - Navigate to the `frontend` directory:
