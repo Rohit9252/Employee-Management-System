@@ -19,7 +19,7 @@ public class GlobalException {
 
         MyErrorDetails err = MyErrorDetails.builder()
                 .localDateTime(LocalDateTime.now())
-                .message("Employee Not Found")
+                .message(ie.getMessage())
                 .details(req.getDescription(false))
                 .build();
 
