@@ -33,7 +33,7 @@ export class UpdateEmployeeComponent implements OnInit {
       this.goToEmployeeList();
     }
       , error => {
-        this.toastr.error('Employee Updation Failed!', 'Error!');
+        this.toastr.error(error.error.message, 'Error!');
         console.log(error);
       }
       );

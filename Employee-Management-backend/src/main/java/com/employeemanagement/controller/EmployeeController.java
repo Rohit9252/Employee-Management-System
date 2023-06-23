@@ -57,7 +57,7 @@ public class EmployeeController {
     // update by id
 
     @PutMapping("/employees/{id}")
-    public ResponseEntity<Employee> updateEmployee(@PathVariable("id") Long id, @RequestBody Employee employee) throws EmployeeException {
+    public ResponseEntity<Employee> updateEmployee(@PathVariable("id") Long id, @Valid @RequestBody Employee employee) throws EmployeeException {
 
         return new ResponseEntity<>(employeeService.updateEmployee(id, employee), HttpStatus.OK);
 
