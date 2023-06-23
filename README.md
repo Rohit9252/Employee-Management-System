@@ -5,9 +5,9 @@ This is an Employee Management System developed using Angular, Spring Boot, and 
 ## Features
 
 - Create, read, update, and delete employee records
-- View employee details such as name, designation, department, and contact information
-- Search for employees by name or department
-- Generate reports based on employee data
+- View employee details  and contact information
+- Search for employees by name id
+
 
 ## Technologies Used
 
@@ -75,7 +75,6 @@ git clone https://github.com/Rohit9252/Employee-Management-System.git
 
 Contributions are welcome! If you find any issues or have suggestions for improvement, please create a GitHub issue or submit a pull request.
 
-## License
+## Thank You
 
-This project is licensed under the [MIT License](LICENSE).
 
